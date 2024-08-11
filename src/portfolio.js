@@ -1,71 +1,64 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://example.com',
+  title: 'SK.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Sunny Kumar',
+  role: 'Frontend Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'A self-taught frontend developer who loves to write clean code and build beautiful user interfaces. I am currently looking for an opportunity to work with React. I am passionate about creating intuitive and user-friendly applications.',
+  resume: '',
   social: {
     linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    github: 'https://github.com/SunnyKumar107',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Gleam',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A beautiful social media platform designed for seamless connection and creative expression. Our platform offers a personlized experience where users can connect with friends, share moments through photos.',
+    stack: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Shadcn',
+      'PostgreSQL',
+      'Prisma',
+    ],
+    sourceCode: 'https://github.com/SunnyKumar107/gleam',
+    livePreview: 'https://gleam-seven.vercel.app',
   },
   {
-    name: 'Project 2',
+    name: 'Shoes-shop',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A simple shoes-shop app where user can create account, search shoes, and add to cart.',
+    stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB', 'CSS'],
+    sourceCode: 'https://github.com/SunnyKumar104/shoes-shop',
+    livePreview: '',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
   'TypeScript',
   'React',
   'Redux',
-  'SASS',
-  'Material UI',
+  'Tailwind CSS',
+  'Next.js',
+  'Node.js',
+  'Express.js',
+  'MongoDb',
+  'PostGreSQL',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'goodluck14115@mail.com',
 }
 
 export { header, about, projects, skills, contact }
