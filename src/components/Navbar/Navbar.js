@@ -1,5 +1,6 @@
 import { useContext, useState } from 'react'
-import { FaSun, FaMoon, FaBars, FaClosedCaptioning } from 'react-icons/fa'
+import { FaMoon, FaBars, FaClosedCaptioning } from 'react-icons/fa'
+import { MdSunny } from 'react-icons/md'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
 import { ThemeContext } from '../../contexts/theme'
@@ -59,7 +60,7 @@ const Navbar = () => {
         className='btn btn--icon nav__theme'
         aria-label='toggle theme'
       >
-        {theme === 'dark' ? <FaMoon /> : <FaSun />}
+        {theme === 'dark' ? <FaMoon size={22} /> : <MdSunny size={30} />}
       </button>
 
       <button

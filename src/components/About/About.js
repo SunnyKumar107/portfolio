@@ -33,7 +33,7 @@ const About = () => {
                 aria-label='github'
                 className='link link--icon'
               >
-                <BsGithub />
+                <BsGithub size={30} />
               </a>
             )}
 
@@ -43,7 +43,7 @@ const About = () => {
                 aria-label='linkedin'
                 className='link link--icon'
               >
-                <BsLinkedin />
+                <BsLinkedin size={30} />
               </a>
             )}
           </>

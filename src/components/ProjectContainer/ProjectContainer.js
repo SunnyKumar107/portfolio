@@ -23,7 +23,7 @@ const ProjectContainer = ({ project }) => (
         aria-label='source code'
         className='link link--icon'
       >
-        <FaGithub />
+        <FaGithub size={25} />
       </a>
     )}
 
@@ -33,7 +33,7 @@ const ProjectContainer = ({ project }) => (
         aria-label='live preview'
         className='link link--icon'
       >
-        <MdLaunch />
+        <MdLaunch size={25} />
       </a>
     )}
   </div>
