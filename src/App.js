@@ -1,12 +1,27 @@
+import Header from './components/Header/Header'
 import './App.css'
+import { useState } from 'react'
+import { ThemeContext } from './contexts/theme'
 
-function App() {
-  const name = 'World'
+const App = () => {
+  const [theme, setTheme] = useState('light')
 
   return (
-    <div className='App'>
-      <h1>Hello, World!</h1>
-    </div>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <div id='top' className={`app ${theme}`}>
+        <Header />
+
+        {/* <main>
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+
+      <ScrollToTop />
+      <Footer /> */}
+      </div>
+    </ThemeContext.Provider>
   )
 }
 
