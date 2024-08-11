@@ -1,5 +1,6 @@
 import { useContext, useState } from 'react'
-import { FaMoon, FaBars, FaClosedCaptioning } from 'react-icons/fa'
+import { FaMoon, FaBars } from 'react-icons/fa'
+import { IoClose } from 'react-icons/io5'
 import { MdSunny } from 'react-icons/md'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
@@ -69,7 +70,7 @@ const Navbar = () => {
         className='btn btn--icon nav__hamburger'
         aria-label='toggle navigation'
       >
-        {showNavList ? <FaClosedCaptioning /> : <FaBars />}
+        {showNavList ? <IoClose size={24} /> : <FaBars size={24} />}
       </button>
     </nav>
   )

@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://example.com',
+  homepage: 'https://portfolio-sunnykr.vercel.app/',
   title: 'SK.',
 }
 
@@ -10,7 +10,7 @@ const about = {
     'A self-taught frontend developer who loves to write clean code and build beautiful user interfaces. I am currently looking for an opportunity to work with React. I am passionate about creating intuitive and user-friendly applications.',
   resume: '',
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/goodluck-sk/',
     github: 'https://github.com/SunnyKumar107',
   },
 }
