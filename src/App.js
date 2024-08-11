@@ -3,6 +3,7 @@ import './App.css'
 import { useState } from 'react'
 import { ThemeContext } from './contexts/theme'
 import About from './components/About/About'
+import Projects from './components/Projects/Projects'
 
 const App = () => {
   const [theme, setTheme] = useState('light')
@@ -14,6 +15,7 @@ const App = () => {
 
         <main>
           <About />
+          <Projects />
         </main>
       </div>
     </ThemeContext.Provider>

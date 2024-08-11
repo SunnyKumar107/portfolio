@@ -19,7 +19,7 @@ const projects = [
   {
     name: 'Gleam',
     description:
-      'A beautiful social media platform designed for seamless connection and creative expression. Our platform offers a personlized experience where users can connect with friends, share moments through photos.',
+      'A beautiful social media platform designed for seamless connection and creative expression. where users share moments through photos.',
     stack: [
       'Next.js',
       'TypeScript',
@@ -37,7 +37,7 @@ const projects = [
       'A simple shoes-shop app where user can create account, search shoes, and add to cart.',
     stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB', 'CSS'],
     sourceCode: 'https://github.com/SunnyKumar104/shoes-shop',
-    livePreview: '',
+    livePreview: 'https://shoes-shop.vercel.app',
   },
 ]
 
