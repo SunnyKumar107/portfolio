@@ -7,6 +7,7 @@ import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 const App = () => {
   const [theme, setTheme] = useState('light')
@@ -23,6 +24,7 @@ const App = () => {
           <Contact />
         </main>
 
+        <ScrollToTop />
         <Footer />
       </div>
     </ThemeContext.Provider>
