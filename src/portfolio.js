@@ -36,8 +36,8 @@ const projects = [
     description:
       'A simple shoes-shop app where user can create account, search shoes, and add to cart.',
     stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB', 'CSS'],
-    sourceCode: 'https://github.com/SunnyKumar104/shoes-shop',
-    livePreview: 'https://shoes-shop.vercel.app',
+    sourceCode: 'https://github.com/SunnyKumar107/Shoes-shop',
+    livePreview: 'https://shoesshop-g.vercel.app/',
   },
 ]
 
